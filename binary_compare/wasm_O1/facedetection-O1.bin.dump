@@ -1,0 +1,24 @@
+
+facedetection-O1.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x000001cd (size=0x000001c2) count: 55
+   Import start=0x000001d0 end=0x000003e0 (size=0x00000210) count: 14
+ Function start=0x000003e3 end=0x00000a70 (size=0x0000068d) count: 1675
+    Table start=0x00000a72 end=0x00000a79 (size=0x00000007) count: 1
+   Memory start=0x00000a7b end=0x00000a7e (size=0x00000003) count: 1
+   Global start=0x00000a80 end=0x00000a88 (size=0x00000008) count: 1
+   Export start=0x00000a8a end=0x00000a9e (size=0x00000014) count: 2
+     Elem start=0x00000aa1 end=0x00000dd0 (size=0x0000032f) count: 1
+     Code start=0x00000dd4 end=0x0008c24d (size=0x0008b479) count: 1675
+     Data start=0x0008c251 end=0x000e315b (size=0x00056f0a) count: 2
+   Custom start=0x000e315e end=0x000e3a57 (size=0x000008f9) ".debug_info"
+   Custom start=0x000e3a5a end=0x000e43bf (size=0x00000965) ".debug_loc"
+   Custom start=0x000e43c1 end=0x000e440f (size=0x0000004e) ".debug_ranges"
+   Custom start=0x000e4412 end=0x000e47ca (size=0x000003b8) ".debug_abbrev"
+   Custom start=0x000e47cd end=0x000e4fd2 (size=0x00000805) ".debug_line"
+   Custom start=0x000e4fd5 end=0x000e5381 (size=0x000003ac) ".debug_str"
+   Custom start=0x000e5385 end=0x0011223b (size=0x0002ceb6) "name"
+   Custom start=0x0011223e end=0x001122c3 (size=0x00000085) "producers"
+   Custom start=0x001122c5 end=0x001122e7 (size=0x00000022) "target_features"

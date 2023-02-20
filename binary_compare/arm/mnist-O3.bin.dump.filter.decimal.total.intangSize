@@ -1,0 +1,4 @@
+./mnist-O3.bin: 23128 - 12118
+BinarySize 23128
+SectionSize 12118
+Bin-Section 11010

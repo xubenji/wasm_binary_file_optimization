@@ -1,0 +1,23 @@
+
+mnist-O3.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x0000009a (size=0x0000008f) count: 21
+   Import start=0x0000009d end=0x0000025d (size=0x000001c0) count: 12
+ Function start=0x0000025f end=0x000002c8 (size=0x00000069) count: 104
+    Table start=0x000002ca end=0x000002cf (size=0x00000005) count: 1
+   Memory start=0x000002d1 end=0x000002d4 (size=0x00000003) count: 1
+   Global start=0x000002d6 end=0x000002de (size=0x00000008) count: 1
+   Export start=0x000002e0 end=0x000002f3 (size=0x00000013) count: 2
+     Elem start=0x000002f5 end=0x00000300 (size=0x0000000b) count: 1
+     Code start=0x00000304 end=0x0000951e (size=0x0000921a) count: 104
+     Data start=0x00009521 end=0x0000bb5d (size=0x0000263c) count: 2
+   Custom start=0x0000bb60 end=0x0000c459 (size=0x000008f9) ".debug_info"
+   Custom start=0x0000c45c end=0x0000cdc1 (size=0x00000965) ".debug_loc"
+   Custom start=0x0000cdc3 end=0x0000ce11 (size=0x0000004e) ".debug_ranges"
+   Custom start=0x0000ce14 end=0x0000d1cc (size=0x000003b8) ".debug_abbrev"
+   Custom start=0x0000d1cf end=0x0000d9d4 (size=0x00000805) ".debug_line"
+   Custom start=0x0000d9d7 end=0x0000dd83 (size=0x000003ac) ".debug_str"
+   Custom start=0x0000dd86 end=0x0000e579 (size=0x000007f3) "name"
+   Custom start=0x0000e57c end=0x0000e601 (size=0x00000085) "producers"

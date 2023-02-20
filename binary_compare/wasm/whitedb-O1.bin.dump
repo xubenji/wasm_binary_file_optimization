@@ -1,0 +1,23 @@
+
+whitedb-O1.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x000000be (size=0x000000b3) count: 24
+   Import start=0x000000c1 end=0x000001dc (size=0x0000011b) count: 8
+ Function start=0x000001df end=0x000002a4 (size=0x000000c5) count: 195
+    Table start=0x000002a6 end=0x000002ab (size=0x00000005) count: 1
+   Memory start=0x000002ad end=0x000002b0 (size=0x00000003) count: 1
+   Global start=0x000002b2 end=0x000002ba (size=0x00000008) count: 1
+   Export start=0x000002bc end=0x000002d0 (size=0x00000014) count: 2
+     Elem start=0x000002d2 end=0x000002e4 (size=0x00000012) count: 1
+     Code start=0x000002e8 end=0x0001230d (size=0x00012025) count: 195
+     Data start=0x00012310 end=0x00014bd4 (size=0x000028c4) count: 2
+   Custom start=0x00014bd7 end=0x000154d0 (size=0x000008f9) ".debug_info"
+   Custom start=0x000154d3 end=0x00015e38 (size=0x00000965) ".debug_loc"
+   Custom start=0x00015e3a end=0x00015e88 (size=0x0000004e) ".debug_ranges"
+   Custom start=0x00015e8b end=0x00016243 (size=0x000003b8) ".debug_abbrev"
+   Custom start=0x00016246 end=0x00016a4b (size=0x00000805) ".debug_line"
+   Custom start=0x00016a4e end=0x00016dfa (size=0x000003ac) ".debug_str"
+   Custom start=0x00016dfd end=0x00017b8c (size=0x00000d8f) "name"
+   Custom start=0x00017b8f end=0x00017c14 (size=0x00000085) "producers"

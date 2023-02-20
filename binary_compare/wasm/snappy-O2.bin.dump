@@ -1,0 +1,24 @@
+
+snappy-O2.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000a end=0x0000007b (size=0x00000071) count: 17
+   Import start=0x0000007e end=0x00000178 (size=0x000000fa) count: 7
+ Function start=0x0000017b end=0x000001fe (size=0x00000083) count: 129
+    Table start=0x00000200 end=0x00000205 (size=0x00000005) count: 1
+   Memory start=0x00000207 end=0x0000020a (size=0x00000003) count: 1
+   Global start=0x0000020c end=0x00000214 (size=0x00000008) count: 1
+   Export start=0x00000216 end=0x0000022a (size=0x00000014) count: 2
+     Elem start=0x0000022c end=0x0000024e (size=0x00000022) count: 1
+     Code start=0x00000252 end=0x0000b4c4 (size=0x0000b272) count: 129
+     Data start=0x0000b4c7 end=0x0000c7b2 (size=0x000012eb) count: 2
+   Custom start=0x0000c7b5 end=0x0000c983 (size=0x000001ce) ".debug_info"
+   Custom start=0x0000c986 end=0x0000cac3 (size=0x0000013d) ".debug_loc"
+   Custom start=0x0000cac5 end=0x0000caf3 (size=0x0000002e) ".debug_ranges"
+   Custom start=0x0000caf6 end=0x0000cbf2 (size=0x000000fc) ".debug_abbrev"
+   Custom start=0x0000cbf5 end=0x0000cd52 (size=0x0000015d) ".debug_line"
+   Custom start=0x0000cd55 end=0x0000cec2 (size=0x0000016d) ".debug_str"
+   Custom start=0x0000cec5 end=0x0000e661 (size=0x0000179c) "name"
+   Custom start=0x0000e664 end=0x0000e6e9 (size=0x00000085) "producers"
+   Custom start=0x0000e6eb end=0x0000e70d (size=0x00000022) "target_features"

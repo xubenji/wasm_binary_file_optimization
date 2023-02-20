@@ -1,0 +1,4 @@
+./snappy-O2.bin: 45800 - 30172
+BinarySize 45800
+SectionSize 30172
+Bin-Section 15628

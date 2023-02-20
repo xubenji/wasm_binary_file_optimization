@@ -1,0 +1,23 @@
+
+bzip2-O0.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x000000da (size=0x000000cf) count: 27
+   Import start=0x000000dd end=0x000003a2 (size=0x000002c5) count: 18
+ Function start=0x000003a5 end=0x00000486 (size=0x000000e1) count: 223
+    Table start=0x00000488 end=0x0000048d (size=0x00000005) count: 1
+   Memory start=0x0000048f end=0x00000492 (size=0x00000003) count: 1
+   Global start=0x00000494 end=0x0000049c (size=0x00000008) count: 1
+   Export start=0x0000049e end=0x000004b2 (size=0x00000014) count: 2
+     Elem start=0x000004b4 end=0x000004c6 (size=0x00000012) count: 1
+     Code start=0x000004ca end=0x0004812c (size=0x00047c62) count: 223
+     Data start=0x0004812f end=0x0004b33b (size=0x0000320c) count: 2
+   Custom start=0x0004b33e end=0x0004bc37 (size=0x000008f9) ".debug_info"
+   Custom start=0x0004bc3a end=0x0004c59f (size=0x00000965) ".debug_loc"
+   Custom start=0x0004c5a1 end=0x0004c5ef (size=0x0000004e) ".debug_ranges"
+   Custom start=0x0004c5f2 end=0x0004c9aa (size=0x000003b8) ".debug_abbrev"
+   Custom start=0x0004c9ad end=0x0004d1b2 (size=0x00000805) ".debug_line"
+   Custom start=0x0004d1b5 end=0x0004d561 (size=0x000003ac) ".debug_str"
+   Custom start=0x0004d564 end=0x0004e621 (size=0x000010bd) "name"
+   Custom start=0x0004e624 end=0x0004e6a9 (size=0x00000085) "producers"
