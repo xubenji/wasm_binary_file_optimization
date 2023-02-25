@@ -1,10 +1,14 @@
 '''
 Author: Yanjie Xu 459547070@qq.com
 Date: 2023-02-18 11:55:21
-LastEditors: Yanjie Xu 459547070@qq.com
-LastEditTime: 2023-02-19 15:04:22
-FilePath: /binary_compare/wasm_photo.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+LastEditors: benjixu 459547070@qq.com
+LastEditTime: 2023-02-20 14:09:29
+FilePath: /binary_compare/compare_section_size_in_wasm.py
+Description: 这个python文件接收一个参数作为文件夹名称，然后遍历这个文件夹中所有以.decimal结尾的文件，读取第三列和第二列数据，画一个柱状图
+比较每一个section在wasm二进制文件中的大小，这个python文件会生成许多柱状图，每一个柱状图代表一个wasm二进制文件。
+其中展示出DATA段和CODE段的大小。
+使用方法：
+python3 compare_section_size_in_wasm.py wasmo1
 '''
 import os
 import sys

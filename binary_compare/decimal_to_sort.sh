@@ -1,3 +1,11 @@
+###
+ # @Author: benjixu 459547070@qq.com
+ # @Date: 2023-02-20 13:45:41
+ # @LastEditors: benjixu 459547070@qq.com
+ # @LastEditTime: 2023-02-20 15:31:25
+ # @FilePath: /wasm-binary-size-study/binary_compare/decimal_to_sort.sh
+ # @Description: 
+
 #!/bin/bash
 
 # 找到所有.decimal后缀结尾的文件，并且将这些文件名放入一个数组中
