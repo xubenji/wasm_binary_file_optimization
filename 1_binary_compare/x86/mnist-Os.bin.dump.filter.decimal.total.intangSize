@@ -1,0 +1,4 @@
+./mnist-Os.bin: 17304 - 6587
+BinarySize 17304
+SectionSize 6587
+Bin-Section 10717

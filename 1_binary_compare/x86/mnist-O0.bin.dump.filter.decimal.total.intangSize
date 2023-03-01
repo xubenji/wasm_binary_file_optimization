@@ -1,0 +1,4 @@
+./mnist-O0.bin: 21400 - 7840
+BinarySize 21400
+SectionSize 7840
+Bin-Section 13560

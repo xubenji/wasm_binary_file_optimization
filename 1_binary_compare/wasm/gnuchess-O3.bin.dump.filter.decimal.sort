@@ -1,0 +1,21 @@
+=== Sorted data for file ./wasm/gnuchess-O3.bin.dump.filter.decimal ===
+Idx        Name                 Value     
+===        ====                 =====     
+4          MEMORY               3         
+3          TABLE                5         
+5          GLOBAL               9         
+6          EXPORT               20        
+7          ELEM                 24        
+12         .debug_ranges        64        
+17         producers            123       
+0          TYPE                 231       
+2          FUNCTION             263       
+1          IMPORT               531       
+15         .debug_str           929       
+13         .debug_abbrev        938       
+14         .debug_line          2041      
+10         .debug_info          2285      
+11         .debug_loc           2394      
+16         name                 3994      
+9          DATA                 19256     
+8          CODE                 181786    

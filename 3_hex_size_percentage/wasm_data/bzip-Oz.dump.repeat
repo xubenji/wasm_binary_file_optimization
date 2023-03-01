@@ -1,0 +1,348 @@
+local.get : 2797
+i32.const : 298
+i32.add : 50
+local.set : 0
+local.tee : 0
+end : 325
+i32.load : 2
+br_if : 0
+i32.store : 0
+block : 367
+i32.shl : 0
+call : 13
+br : 60
+i32.and : 0
+i32.load8_u : 0
+i32.eqz : 0
+loop : 0
+i32.sub : 0
+i32.or : 1
+i32.shr_u : 0
+i32.eq : 0
+i32.lt_s : 0
+i32.ne : 0
+i32.store8 : 0
+drop : 0
+i32.gt_s : 0
+select : 0
+i64.const : 5
+i32.load16_u : 0
+i32.gt_u : 0
+return : 0
+i64.store : 0
+global.set : 0
+i32.lt_u : 0
+i32.xor : 0
+unreachable : 2
+i32.le_s : 0
+i32.mul : 0
+i64.load : 0
+i32.ge_s : 0
+global.get : 0
+i32.shr_s : 0
+i32.ge_u : 0
+call_indirect : 0
+f64.const : 1
+br_table : 0
+i64.sub : 0
+i32.store16 : 0
+i32.le_u : 0
+i64.mul : 0
+i64.and : 0
+i64.shl : 0
+i64.shr_u : 0
+i64.add : 0
+i64.or : 0
+f64.mul : 0
+i32.load8_s : 0
+i64.xor : 0
+i64.extend_i32_u : 0
+i64.ne : 0
+i32.rotl : 0
+i64.eqz : 0
+i64.lt_u : 0
+i32.div_u : 0
+i64.gt_u : 0
+i64.div_u : 0
+i32.wrap_i64 : 0
+i64.extend_i32_s : 0
+i64.le_u : 0
+f64.store : 0
+i64.lt_s : 0
+i32.div_s : 0
+f64.add : 0
+i64.load32_u : 0
+i64.store32 : 0
+f64.neg : 0
+f64.sub : 0
+f64.ne : 0
+i64.clz : 0
+f64.div : 0
+f32.convert_i32_s : 0
+i64.load32_s : 0
+i64.eq : 0
+f64.eq : 0
+f64.lt : 0
+i32.rem_u : 0
+i64.shr_s : 0
+f64.convert_i32_u : 0
+f64.promote_f32 : 0
+f64.load : 0
+i64.gt_s : 0
+i64.ge_u : 0
+f64.abs : 0
+i64.reinterpret_f64 : 0
+i64.load8_s : 0
+i64.load8_u : 0
+i64.load16_s : 0
+i64.load16_u : 0
+i64.store8 : 0
+memory.size : 0
+memory.grow : 0
+i64.ge_s : 0
+f64.ge : 0
+f32.div : 0
+i32.trunc_f64_s : 0
+i32.trunc_f64_u : 0
+f64.convert_i32_s : 0
+f64.reinterpret_i64 : 0
+memory.copy : 0
+memory.fill : 0
+: 16834
+Opcode counts with immediates : 0
+i32.add : 50
+end : 325
+local.get 0 : 89
+block : 367
+br_if 0 : 0
+local.get 3 : 194
+i32.const 0 : 79
+i32.const 1 : 35
+local.get 4 : 88
+local.get 1 : 248
+i32.load 2, 0 : 0
+i32.shl : 0
+i32.store 2, 0 : 0
+local.get 2 : 106
+i32.and : 0
+local.get 5 : 15
+i32.const 4294967295 : 0
+i32.const 2 : 1
+local.get 6 : 10
+local.get 7 : 3
+local.get 8 : 66
+i32.eqz : 0
+loop : 0
+i32.const 8 : 1
+i32.load8_u 0, 0 : 0
+i32.sub : 0
+i32.or : 1
+i32.shr_u : 0
+i32.eq : 0
+i32.lt_s : 0
+local.tee 4 : 0
+i32.const 4 : 4
+br 1 : 0
+i32.ne : 0
+drop : 0
+local.tee 3 : 0
+local.set 4 : 0
+br_if 1 : 0
+local.set 3 : 0
+local.get 12 : 3
+local.tee 7 : 0
+i32.gt_s : 0
+local.get 19 : 11
+select : 0
+local.get 16 : 3
+local.get 10 : 2
+local.get 15 : 3
+local.get 9 : 5
+i32.load16_u 1, 0 : 0
+i32.store8 0, 0 : 0
+i32.const 4294967288 : 0
+i32.const 32 : 0
+i32.const 3 : 3
+local.get 28 : 0
+i32.const 16 : 0
+local.set 6 : 0
+local.get 18 : 0
+local.tee 6 : 0
+i32.store 2, 4 : 0
+i32.load 2, 4 : 0
+i32.gt_u : 0
+local.get 17 : 2
+i32.const 255 : 0
+local.get 36 : 0
+return : 0
+local.set 2 : 0
+local.tee 12 : 0
+local.get 21 : 2
+local.tee 1 : 0
+i32.load 2, 8 : 0
+local.set 7 : 0
+local.set 1 : 0
+local.tee 2 : 0
+local.tee 15 : 0
+local.get 55 : 0
+i32.const 15 : 1
+br_if 2 : 0
+i32.const 24 : 0
+local.get 11 : 5
+local.get 27 : 0
+i32.store 2, 12 : 0
+local.set 8 : 0
+global.set 0 : 0
+local.tee 0 : 0
+local.set 0 : 0
+local.get 22 : 1
+i32.lt_u : 0
+i32.load 2, 28 : 0
+local.tee 16 : 0
+i32.store 2, 32 : 0
+local.get 20 : 1
+i64.const 0 : 0
+local.set 55 : 0
+local.tee 8 : 0
+local.tee 28 : 0
+i32.store 2, 8 : 0
+local.tee 5 : 0
+local.set 15 : 0
+local.set 5 : 0
+local.get 14 : 3
+local.get 29 : 0
+i32.const 256 : 0
+local.tee 9 : 0
+local.set 77 : 0
+call 167 : 0
+local.set 19 : 0
+i32.load 2, 9804 : 0
+i32.load 2, 12 : 0
+local.get 13 : 3
+local.get 24 : 2
+local.set 36 : 0
+local.tee 19 : 0
+i32.const 4294967292 : 0
+i32.xor : 0
+br 2 : 0
+local.get 77 : 0
+local.get 30 : 0
+unreachable : 2
+i32.load 2, 32 : 0
+i32.le_s : 0
+local.set 78 : 0
+i32.mul : 0
+local.get 31 : 0
+local.get 35 : 0
+local.set 9 : 0
+local.set 21 : 0
+local.get 32 : 1
+local.get 34 : 1
+local.tee 10 : 0
+local.tee 27 : 0
+i32.store 2, 24 : 0
+i32.ge_s : 0
+global.get 0 : 0
+i32.const 10 : 0
+i32.const 13840 : 0
+br 3 : 0
+local.get 26 : 0
+i32.load 2, 16956 : 0
+i32.store 2, 28 : 0
+br_if 3 : 0
+i32.const 4294967294 : 0
+i32.shr_s : 0
+call 130 : 0
+local.get 38 : 0
+local.tee 17 : 0
+i32.ge_u : 0
+local.get 41 : 0
+local.set 28 : 0
+i32.load 2, 20 : 0
+i32.const 48 : 0
+local.get 37 : 0
+local.get 40 : 0
+local.get 43 : 0
+i32.const 9 : 0
+local.get 33 : 0
+local.set 67 : 0
+local.tee 21 : 0
+i32.load 2, 36 : 0
+call 175 : 0
+local.get 25 : 3
+local.set 10 : 0
+local.set 12 : 0
+local.set 20 : 0
+i32.load 2, 16 : 0
+local.get 39 : 0
+local.get 23 : 1
+local.set 56 : 0
+i32.store 2, 18656 : 0
+local.set 65 : 0
+i32.load 2, 44 : 0
+i32.const 5 : 0
+i32.const 12 : 0
+i32.const 80 : 0
+local.get 42 : 0
+local.set 63 : 0
+local.tee 36 : 0
+i64.store 3, 0 : 0
+local.set 57 : 0
+local.set 59 : 0
+local.set 61 : 0
+local.set 62 : 0
+local.set 66 : 0
+local.set 71 : 0
+i32.load 2, 24 : 0
+i32.const 20 : 0
+local.get 52 : 0
+local.set 58 : 0
+local.set 60 : 0
+local.set 64 : 0
+local.set 68 : 0
+local.tee 20 : 0
+i32.const 14880 : 0
+local.get 48 : 0
+local.set 16 : 0
+i32.const 7 : 0
+i64.sub : 0
+br_if 4 : 0
+local.get 47 : 0
+local.set 69 : 0
+br 0 : 0
+br 4 : 0
+local.set 17 : 0
+local.set 70 : 0
+local.set 72 : 0
+local.set 73 : 0
+local.tee 22 : 0
+i32.load 2, 13832 : 0
+i32.load 2, 56 : 0
+i32.store 2, 13832 : 0
+i32.store 2, 20 : 0
+i32.store 2, 5060 : 0
+local.get 44 : 0
+local.get 51 : 0
+local.set 11 : 0
+local.set 18 : 0
+i32.store 2, 56 : 0
+call 131 : 0
+local.get 45 : 0
+local.get 49 : 0
+i32.const 112 : 0
+local.get 46 : 0
+local.get 50 : 0
+local.set 22 : 0
+local.set 27 : 0
+i32.load 2, 16964 : 0
+i32.const 624 : 0
+i32.le_u : 0
+local.set 75 : 0
+local.set 76 : 0
+i32.load 2, 68 : 0
+i32.store 2, 16 : 0
+i64.mul : 0
+local.get 78 : 0
+local.set 74 : 0
+i32.const 31 : 0
+br_if 5 : 0

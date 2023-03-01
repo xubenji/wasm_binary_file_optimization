@@ -1,0 +1,1569 @@
+Total opcodes: 38081
+
+Opcode counts:
+local.get: 9534
+i32.const: 6023
+local.set: 2518
+i32.add: 2435
+end: 2100
+br_if: 1893
+local.tee: 1606
+block: 1542
+i32.load: 1145
+i32.store: 1083
+call: 845
+br: 731
+i32.and: 585
+i32.eqz: 448
+i32.load8_u: 395
+loop: 359
+i32.shl: 316
+i32.eq: 304
+i32.store8: 300
+i32.sub: 287
+select: 283
+i32.shr_u: 280
+i32.mul: 264
+i32.or: 227
+i32.ne: 221
+drop: 173
+return: 158
+i32.gt_u: 158
+i32.gt_s: 140
+i32.lt_u: 139
+i32.lt_s: 126
+i64.const: 121
+i64.store: 107
+global.set: 73
+i32.load16_u: 71
+i32.store16: 71
+i32.shr_s: 67
+i32.xor: 59
+i64.load: 51
+i32.le_u: 48
+i32.ge_u: 48
+i32.ge_s: 47
+f32.const: 42
+br_table: 38
+unreachable: 37
+global.get: 37
+call_indirect: 34
+f64.const: 34
+i32.div_u: 27
+f64.mul: 27
+f32.mul: 24
+i32.le_s: 21
+i32.load8_s: 19
+i32.rotl: 18
+i64.extend_i32_s: 17
+i64.add: 16
+i32.div_s: 15
+f64.add: 15
+i64.extend_i32_u: 14
+f64.load: 13
+i64.mul: 13
+i64.and: 13
+i32.wrap_i64: 13
+i32.load16_s: 12
+f32.convert_i32_u: 11
+i64.shr_u: 10
+i64.eqz: 9
+f32.add: 9
+f32.lt: 8
+f32.div: 7
+f32.ge: 6
+i64.sub: 6
+f64.sub: 6
+i32.trunc_f32_u: 6
+i64.load32_u: 5
+f64.neg: 5
+f32.load: 4
+f32.store: 4
+i64.gt_u: 4
+f64.ne: 4
+i64.or: 4
+i64.shl: 4
+i64.reinterpret_f64: 4
+i64.load32_s: 3
+i64.lt_s: 3
+i64.lt_u: 3
+i64.le_u: 3
+i64.ge_s: 3
+f64.eq: 3
+f64.lt: 3
+i32.rem_u: 3
+i64.xor: 3
+f32.sub: 3
+i32.reinterpret_f32: 3
+i64.store32: 2
+i64.ne: 2
+i64.gt_s: 2
+i64.ge_u: 2
+i32.rem_s: 2
+i64.div_u: 2
+f32.abs: 2
+f32.neg: 2
+f32.min: 2
+f32.max: 2
+f64.abs: 2
+i32.trunc_f32_s: 2
+f64.convert_i32_s: 2
+f64.promote_f32: 2
+f32.reinterpret_i32: 2
+f64.reinterpret_i64: 2
+i64.load8_s: 1
+i64.load8_u: 1
+i64.load16_s: 1
+i64.load16_u: 1
+f64.store: 1
+i64.store8: 1
+memory.size: 1
+memory.grow: 1
+i64.eq: 1
+i64.le_s: 1
+f64.gt: 1
+f64.le: 1
+f64.ge: 1
+i32.trunc_f64_s: 1
+i32.trunc_f64_u: 1
+f32.convert_i32_s: 1
+f32.demote_f64: 1
+f64.convert_i32_u: 1
+memory.copy: 1
+memory.fill: 1
+
+Opcode counts with immediates:
+i32.add: 2435
+end: 2100
+local.get 0: 1845
+block: 1542
+i32.const 0 (0x0): 1334
+br_if 0: 1263
+local.get 1: 942
+local.get 4: 802
+local.get 5: 786
+local.get 2: 711
+local.get 3: 697
+i32.const 1 (0x1): 647
+i32.and: 585
+local.get 6: 486
+i32.eqz: 448
+i32.load 2, 0: 390
+local.get 7: 386
+loop: 358
+i32.const 4294967295 (0xffffffff): 353
+i32.load8_u 0, 0: 326
+br_if 1: 318
+i32.shl: 316
+local.get 9: 305
+i32.eq: 304
+i32.sub: 287
+select: 283
+i32.store 2, 0: 281
+i32.shr_u: 280
+i32.mul: 264
+i32.const 2 (0x2): 258
+local.set 4: 248
+local.get 18: 242
+i32.const 4 (0x4): 241
+local.get 10: 237
+i32.or: 227
+i32.ne: 221
+i32.const 3 (0x3): 216
+br 0: 215
+br 1: 215
+i32.store8 0, 0: 211
+local.get 12: 209
+local.tee 4: 202
+local.set 5: 199
+i32.const 8 (0x8): 197
+local.get 8: 196
+local.set 1: 192
+local.get 19: 190
+i32.const 16 (0x10): 174
+drop: 173
+local.set 6: 171
+i32.const 255 (0xff): 164
+local.set 2: 163
+i32.store 2, 8132: 161
+return: 158
+i32.gt_u: 158
+local.tee 2: 154
+local.tee 3: 153
+local.tee 1: 149
+local.tee 6: 144
+local.set 3: 141
+i32.gt_s: 140
+i32.lt_u: 139
+local.set 9: 137
+local.get 14: 136
+local.tee 5: 136
+local.get 21: 131
+call 45: 130
+local.set 8: 126
+i32.lt_s: 126
+local.set 0: 124
+i32.load 2, 4: 123
+local.get 17: 120
+i32.const 32 (0x20): 115
+local.get 13: 102
+local.get 16: 102
+local.get 22: 102
+local.tee 0: 101
+local.set 10: 99
+br_if 2: 98
+i32.store 2, 4: 97
+i32.load 2, 8: 94
+local.get 20: 87
+local.get 11: 85
+i32.store 2, 8: 80
+i32.store 2, 12: 80
+local.get 24: 78
+local.set 7: 78
+local.set 19: 78
+local.set 12: 76
+global.set 0: 73
+local.get 15: 72
+i32.const 15 (0xf): 70
+i32.shr_s: 67
+br 2: 66
+local.tee 9: 65
+i32.const 7 (0x7): 65
+local.set 11: 64
+i32.const 10 (0xa): 63
+local.tee 19: 61
+i32.const 256 (0x100): 61
+local.get 34: 60
+i64.const 0 (0x0): 60
+i32.load 2, 16: 59
+i32.store16 1, 0: 59
+i32.xor: 59
+br_if 3: 56
+local.tee 7: 55
+i32.load16_u 1, 0: 55
+local.set 14: 54
+local.set 17: 54
+i32.store 2, 24: 53
+call 105: 52
+local.get 27: 52
+i32.const 4294967288 (0xfffffff8): 52
+local.set 21: 51
+i32.const 24 (0x18): 51
+i32.load 2, 12: 50
+call 139: 49
+i32.const 9 (0x9): 49
+i32.le_u: 48
+i32.ge_u: 48
+br 3: 47
+local.get 31: 47
+local.set 18: 47
+i32.const 48 (0x30): 47
+i32.ge_s: 47
+i32.const 20 (0x14): 46
+i32.const 12 (0xc): 43
+i32.const 31 (0x1f): 43
+local.set 20: 42
+i32.const 4294967294 (0xfffffffe): 42
+local.get 28: 41
+local.set 16: 41
+local.get 25: 40
+local.get 26: 40
+local.tee 21: 40
+unreachable: 37
+local.set 22: 37
+local.tee 8: 37
+global.get 0: 37
+call 182: 36
+local.get 23: 36
+br_if 4: 34
+local.get 30: 34
+local.get 35: 34
+local.tee 10: 34
+local.set 27: 33
+i32.store 2, 10908: 33
+call 57: 32
+local.set 34: 32
+i32.store8 0, 1: 32
+i32.const 128 (0x80): 32
+i32.const 4294967292 (0xfffffffc): 32
+i32.const 65535 (0xffff): 32
+local.get 29: 31
+i32.load 2, 20: 31
+call 41: 30
+i32.const 80 (0x50): 30
+call 48: 28
+local.set 15: 27
+i32.load 2, 24: 27
+i32.const 6 (0x6): 27
+i32.const 624 (0x270): 27
+i32.div_u: 27
+f64.mul: 27
+local.set 28: 26
+i32.const 1834 (0x72a): 26
+i32.const 112 (0x70): 26
+br_if 5: 25
+local.tee 12: 25
+local.set 25: 24
+local.tee 22: 24
+i64.store 3, 0: 24
+i32.store8 0, 2: 24
+i32.const 2111 (0x83f): 24
+f32.mul: 24
+i32.load 2, 32: 23
+br 15: 22
+local.tee 17: 22
+local.tee 20: 22
+i32.const 72 (0x48): 22
+br 4: 21
+i32.store 2, 16: 21
+i32.const 29 (0x1d): 21
+i32.const 2147483647 (0x7fffffff): 21
+i32.le_s: 21
+call 42: 20
+local.get 32: 20
+i32.load 2, 28: 20
+i32.load 2, 18368: 20
+i32.load8_u 0, 2: 20
+i32.const 28 (0x1c): 20
+local.set 35: 19
+local.tee 24: 19
+i32.const 5 (0x5): 19
+local.set 23: 18
+local.set 24: 18
+local.set 29: 18
+i32.load8_u 0, 1: 18
+i32.rotl: 18
+br 16: 17
+br_if 6: 17
+br_if 7: 17
+call 103: 17
+call_indirect 3, 0: 17
+local.tee 16: 17
+local.tee 18: 17
+i32.load 2, 56: 17
+i32.const 10452 (0x28d4): 17
+i64.extend_i32_s: 17
+br_if 8: 16
+call 130: 16
+local.tee 15: 16
+i32.const 4294967040 (0xffffff00): 16
+i32.const 1940 (0x794): 16
+i32.const 10716 (0x29dc): 16
+i64.add: 16
+call 184: 15
+local.set 13: 15
+i32.store 2, 10412: 15
+i32.div_s: 15
+f64.add: 15
+br 8: 14
+br 12: 14
+call 40: 14
+local.tee 13: 14
+i32.store 2, 10420: 14
+i32.store8 0, 3: 14
+i32.const 11 (0xb): 14
+i32.const 17 (0x11): 14
+i32.const 25 (0x19): 14
+i32.const 150 (0x96): 14
+i64.extend_i32_u: 14
+br 6: 13
+br 10: 13
+call 44: 13
+local.tee 11: 13
+i32.load 2, 10432: 13
+i64.load 2, 180: 13
+i32.store 2, 10416: 13
+i64.store 2, 0: 13
+i64.store 2, 172: 13
+i32.const 16777217 (0x1000001): 13
+i32.const 23 (0x17): 13
+i32.const 56 (0x38): 13
+i32.const 77 (0x4d): 13
+i32.const 4294967280 (0xfffffff0): 13
+i64.mul: 13
+i64.and: 13
+i32.wrap_i64: 13
+br 5: 12
+br 14: 12
+call 32: 12
+call 77: 12
+local.get 33: 12
+local.set 26: 12
+local.set 31: 12
+i32.load 2, 40: 12
+i32.load 2, 10412: 12
+i32.load 2, 10416: 12
+i32.load16_s 1, 0: 12
+i32.const 40 (0x28): 12
+i32.const 64 (0x40): 12
+i32.const 4294967248 (0xffffffd0): 12
+f64.const 16 (0x1p+4): 12
+br 7: 11
+br 9: 11
+call 166: 11
+local.set 30: 11
+local.tee 14: 11
+local.tee 35: 11
+i32.load 2, 84: 11
+i32.load 2, 172: 11
+i32.store 2, 20: 11
+i32.store 2, 28: 11
+i32.const 65536 (0x10000): 11
+i32.const 65280 (0xff00): 11
+i32.const 63 (0x3f): 11
+f32.convert_i32_u: 11
+br_if 9: 10
+br_if 10: 10
+call 59: 10
+call 174: 10
+i32.load 2, 36: 10
+i32.store 2, 10424: 10
+i32.store 2, 10432: 10
+i32.store 2, 10436: 10
+i32.const 68 (0x44): 10
+i32.const 1680 (0x690): 10
+i32.const 6321 (0x18b1): 10
+i32.const 4294967291 (0xfffffffb): 10
+i32.const 4294967293 (0xfffffffd): 10
+i64.const 18446744073709551615 (0xffffffffffffffff): 10
+i64.shr_u: 10
+br 11: 9
+local.set 32: 9
+local.tee 25: 9
+i32.load 2, 176: 9
+i32.load 2, 10428: 9
+i32.load8_s 0, 0: 9
+i32.store 2, 172: 9
+i32.store 2, 18368: 9
+i32.const 16711680 (0xff0000): 9
+i32.const 512 (0x200): 9
+i32.const 1024 (0x400): 9
+i32.const 78864 (0x13410): 9
+i32.const 1071 (0x42f): 9
+i32.const 70 (0x46): 9
+i32.const 4294967287 (0xfffffff7): 9
+f32.const 0 (0x0p+0): 9
+i64.eqz: 9
+f32.add: 9
+call 58: 8
+local.get 41: 8
+local.get 43: 8
+local.tee 34: 8
+i32.store 2, 32: 8
+i32.store 2, 18364: 8
+i64.store 3, 16: 8
+i32.store16 0, 0: 8
+i32.const 8192 (0x2000): 8
+i32.const 33554431 (0x1ffffff): 8
+f32.lt: 8
+call 26: 7
+call 110: 7
+call 125: 7
+call_indirect 7, 0: 7
+local.get 38: 7
+local.tee 32: 7
+i32.load 0, 0: 7
+i32.load 2, 48: 7
+i32.load 2, 60: 7
+i32.load 2, 10420: 7
+i32.load 2, 10424: 7
+i32.load 2, 18364: 7
+i64.load 3, 56: 7
+i32.load8_s 0, 1: 7
+i32.load8_u 0, 3: 7
+i64.store 2, 16: 7
+i32.const 1280 (0x500): 7
+i32.const 13 (0xd): 7
+i32.const 14 (0xe): 7
+i32.const 2068 (0x814): 7
+i64.const 32 (0x20): 7
+f32.const 1 (0x1p+0): 7
+f32.div: 7
+br_if 11: 6
+br_if 12: 6
+local.set 43: 6
+local.tee 28: 6
+i32.load 2, 44: 6
+i32.load 2, 52: 6
+i32.load 2, 10436: 6
+i64.load 3, 0: 6
+i32.load8_u 0, 18372: 6
+i32.store 2, 18400: 6
+i64.store 2, 4: 6
+i32.const 1065353216 (0x3f800000): 6
+i32.const 2048 (0x800): 6
+i32.const 73728 (0x12000): 6
+i32.const 245760 (0x3c000): 6
+i32.const 520192 (0x7f000): 6
+i32.const 1048320 (0xfff00): 6
+i32.const 18 (0x12): 6
+i32.const 19 (0x13): 6
+i32.const 21 (0x15): 6
+i32.const 2592 (0xa20): 6
+i32.const 36 (0x24): 6
+i32.const 43 (0x2b): 6
+i32.const 47 (0x2f): 6
+i32.const 71 (0x47): 6
+i32.const 97 (0x61): 6
+i32.const 3504 (0xdb0): 6
+i32.const 192 (0xc0): 6
+i32.const 18120 (0x46c8): 6
+i32.const 208 (0xd0): 6
+i32.const 16777215 (0xffffff): 6
+f32.const 255 (0x1.fep+7): 6
+f32.const 4.29497e+09 (0x1p+32): 6
+f64.const 0 (0x0p+0): 6
+f32.ge: 6
+i64.sub: 6
+f64.sub: 6
+i32.trunc_f32_u: 6
+br 13: 5
+br 17: 5
+br_if 13: 5
+call 34: 5
+call 68: 5
+call 69: 5
+call 75: 5
+call 79: 5
+call 84: 5
+call 183: 5
+call 191: 5
+local.set 41: 5
+i32.load 2, 108: 5
+i32.load 2, 10912: 5
+i32.load 2, 18388: 5
+i64.load 3, 88: 5
+i32.load16_u 0, 1: 5
+i64.load32_u 2, 0: 5
+i32.store 0, 0: 5
+i32.store 2, 18440: 5
+i32.store 2, 108: 5
+i32.store8 0, 18372: 5
+i32.const 4096 (0x1000): 5
+i32.const 45 (0x2d): 5
+i32.const 108 (0x6c): 5
+i32.const 2155905152 (0x80808080): 5
+i32.const 2185 (0x889): 5
+i32.const 160 (0xa0): 5
+i32.const 18084 (0x46a4): 5
+i32.const 18092 (0x46ac): 5
+i32.const 18108 (0x46bc): 5
+i32.const 4294967241 (0xffffffc9): 5
+i32.const 4294967263 (0xffffffdf): 5
+i32.const 224 (0xe0): 5
+i32.const 2528 (0x9e0): 5
+i32.const 4294967264 (0xffffffe0): 5
+i32.const 240 (0xf0): 5
+i32.const 4294967289 (0xfffffff9): 5
+i32.const 254 (0xfe): 5
+i32.const 2147483646 (0x7ffffffe): 5
+i32.const 4278124287 (0xfefefeff): 5
+i64.const 4294967295 (0xffffffff): 5
+f64.neg: 5
+br_if 14: 4
+call 60: 4
+call 61: 4
+call 62: 4
+call 63: 4
+call 81: 4
+call 82: 4
+call 85: 4
+call 104: 4
+call 124: 4
+call 152: 4
+call 188: 4
+local.get 37: 4
+local.get 40: 4
+local.set 33: 4
+local.tee 23: 4
+local.tee 29: 4
+local.tee 30: 4
+local.tee 33: 4
+i32.load 1, 0: 4
+i32.load 2, 18440: 4
+i32.load 2, 64: 4
+i32.load 2, 10900: 4
+i32.load 2, 18380: 4
+i32.load 2, 18416: 4
+i64.load 2, 0: 4
+i32.load8_u 0, 12: 4
+i32.store 2, 40: 4
+i32.store 2, 48: 4
+i32.store 2, 10916: 4
+i32.store 2, 10440: 4
+i64.store 2, 8: 4
+i64.store 2, 12: 4
+i64.store 3, 8: 4
+i32.const 2147483648 (0x80000000): 4
+i32.const 4278190080 (0xff000000): 4
+i32.const 16842752 (0x1010000): 4
+i32.const 3855 (0xf0f): 4
+i32.const 1040 (0x410): 4
+i32.const 26 (0x1a): 4
+i32.const 27 (0x1b): 4
+i32.const 13107 (0x3333): 4
+i32.const 76 (0x4c): 4
+i32.const 21845 (0x5555): 4
+i32.const 96 (0x60): 4
+i32.const 10860 (0x2a6c): 4
+i32.const 124 (0x7c): 4
+i32.const 127 (0x7f): 4
+i32.const 4294967168 (0xffffff80): 4
+i32.const 13444 (0x3484): 4
+i32.const 13956 (0x3684): 4
+i32.const 1417 (0x589): 4
+i32.const 18080 (0x46a0): 4
+i32.const 18088 (0x46a8): 4
+i32.const 18096 (0x46b0): 4
+i32.const 18104 (0x46b8): 4
+i32.const 18112 (0x46c0): 4
+i32.const 18136 (0x46d8): 4
+i32.const 10460 (0x28dc): 4
+i32.const 18140 (0x46dc): 4
+i32.const 488 (0x1e8): 4
+i32.const 4294967272 (0xffffffe8): 4
+i32.const 4294967279 (0xffffffef): 4
+i32.const 4294967284 (0xfffffff4): 4
+i32.const 4294967286 (0xfffffff6): 4
+i32.const 248 (0xf8): 4
+i32.const 511 (0x1ff): 4
+i64.const 10 (0xa): 4
+i64.gt_u: 4
+f64.ne: 4
+i64.or: 4
+i64.shl: 4
+i64.reinterpret_f64: 4
+br_if 16: 3
+call 33: 3
+call 35: 3
+call 47: 3
+call 83: 3
+call 87: 3
+call 89: 3
+call 93: 3
+call 95: 3
+call 96: 3
+call 107: 3
+call 115: 3
+call 144: 3
+call 153: 3
+call 155: 3
+call 158: 3
+call 165: 3
+call 178: 3
+call 190: 3
+call_indirect 0, 0: 3
+local.get 36: 3
+local.get 39: 3
+local.set 36: 3
+local.set 37: 3
+local.tee 31: 3
+local.tee 38: 3
+local.tee 39: 3
+local.tee 41: 3
+i32.load 2, 18444: 3
+i32.load 2, 10844: 3
+i32.load 2, 10884: 3
+i32.load 2, 10892: 3
+i32.load 2, 18060: 3
+i32.load 2, 18064: 3
+i32.load 2, 10916: 3
+i32.load 2, 8112: 3
+i32.load 2, 7872: 3
+i32.load 2, 11212: 3
+i32.load 2, 18396: 3
+i32.load 2, 18400: 3
+i32.load 2, 18408: 3
+i64.load 0, 0: 3
+f64.load 3, 0: 3
+i32.load16_u 0, 0: 3
+i64.load32_s 2, 0: 3
+i32.store 2, 44: 3
+i32.store 2, 60: 3
+i32.store 2, 64: 3
+i32.store 2, 34888: 3
+i32.store 2, 34892: 3
+i32.store 2, 84: 3
+i32.store 2, 10856: 3
+i32.store 2, 10860: 3
+i32.store 2, 10864: 3
+i32.store 2, 10912: 3
+i32.store 2, 10428: 3
+i32.store 2, 10444: 3
+i64.store 3, 96: 3
+i32.const 67108864 (0x4000000): 3
+i32.const 268435456 (0x10000000): 3
+i32.const 1000000000 (0x3b9aca00): 3
+i32.const 16843009 (0x1010101): 3
+i32.const 3600 (0xe10): 3
+i32.const 37 (0x25): 3
+i32.const 2091 (0x82b): 3
+i32.const 44 (0x2c): 3
+i32.const 6724 (0x1a44): 3
+i32.const 73 (0x49): 3
+i32.const 1100 (0x44c): 3
+i32.const 2641 (0xa51): 3
+i32.const 102 (0x66): 3
+i32.const 120 (0x78): 3
+i32.const 4294967169 (0xffffff81): 3
+i32.const 1165 (0x48d): 3
+i32.const 18100 (0x46b4): 3
+i32.const 3254 (0xcb6): 3
+i32.const 4294967231 (0xffffffbf): 3
+i32.const 4294967232 (0xffffffc0): 3
+i32.const 3014 (0xbc6): 3
+i32.const 4294967240 (0xffffffc8): 3
+i32.const 2512 (0x9d0): 3
+i32.const 2010 (0x7da): 3
+i32.const 2500072158 (0x950412de): 3
+i32.const 4294967276 (0xffffffec): 3
+i32.const 18420 (0x47f4): 3
+i32.const 2047 (0x7ff): 3
+i32.const 4095 (0xfff): 3
+i32.const 268435455 (0xfffffff): 3
+i64.lt_s: 3
+i64.lt_u: 3
+i64.le_u: 3
+i64.ge_s: 3
+f64.eq: 3
+f64.lt: 3
+i32.rem_u: 3
+i64.xor: 3
+f32.sub: 3
+i32.reinterpret_f32: 3
+br_if 15: 2
+br_if 18: 2
+br_table 0, 1, 2: 2
+br_table 0, 1, 2, 12, 12, 12, 12, 3, 12, 4, 5, 12, 12, 12, 12, 7, 8, 12, 6, 12, 12, 12, 12, 9, 10, 11, 12: 2
+br_table 1, 0, 2, 0: 2
+call 13: 2
+call 23: 2
+call 29: 2
+call 30: 2
+call 37: 2
+call 43: 2
+call 49: 2
+call 54: 2
+call 56: 2
+call 64: 2
+call 74: 2
+call 76: 2
+call 78: 2
+call 80: 2
+call 86: 2
+call 88: 2
+call 90: 2
+call 91: 2
+call 92: 2
+call 94: 2
+call 97: 2
+call 99: 2
+call 106: 2
+call 108: 2
+call 109: 2
+call 119: 2
+call 123: 2
+call 136: 2
+call 147: 2
+call 148: 2
+call 159: 2
+call 169: 2
+call 172: 2
+call 173: 2
+call 175: 2
+call 195: 2
+call 196: 2
+call 201: 2
+call 203: 2
+call_indirect 2, 0: 2
+call_indirect 5, 0: 2
+local.tee 40: 2
+i32.load 2, 18448: 2
+i32.load 2, 34884: 2
+i32.load 2, 34888: 2
+i32.load 2, 34892: 2
+i32.load 2, 34896: 2
+i32.load 2, 10852: 2
+i32.load 2, 10888: 2
+i32.load 2, 168: 2
+i32.load 2, 180: 2
+i32.load 2, 11208: 2
+i32.load 2, 18384: 2
+i32.load 2, 18392: 2
+i32.load 2, 18412: 2
+i32.load 2, 18420: 2
+i64.load 2, 8: 2
+i64.load 3, 8: 2
+f32.load 2, 0: 2
+i32.load8_s 0, 2: 2
+i32.load8_u 0, 8: 2
+i32.load8_u 0, 15: 2
+i32.load8_u 0, 36: 2
+i32.load16_u 1, 6: 2
+i32.load16_u 1, 10: 2
+i32.store 1, 0: 2
+i32.store 2, 18436: 2
+i32.store 2, 18444: 2
+i32.store 2, 18448: 2
+i32.store 2, 18452: 2
+i32.store 2, 36: 2
+i32.store 2, 34860: 2
+i32.store 2, 34864: 2
+i32.store 2, 52: 2
+i32.store 2, 56: 2
+i32.store 2, 10872: 2
+i32.store 2, 10884: 2
+i32.store 2, 10904: 2
+i32.store 2, 168: 2
+i32.store 2, 18376: 2
+i32.store 2, 10448: 2
+i32.store 2, 18388: 2
+i32.store 2, 18412: 2
+i64.store 2, 10888: 2
+i64.store 2, 10896: 2
+i64.store 3, 56: 2
+i64.store 3, 88: 2
+f32.store 2, 0: 2
+i32.store8 0, 4: 2
+i32.store8 0, 5: 2
+i32.store8 0, 6: 2
+i32.store8 0, 7: 2
+i32.store8 0, 88: 2
+i32.store16 0, 1: 2
+i32.const 16777216 (0x1000000): 2
+i32.const 134217728 (0x8000000): 2
+i32.const 335544320 (0x14000000): 2
+i32.const 1073741824 (0x40000000): 2
+i32.const 131072 (0x20000): 2
+i32.const 4294901760 (0xffff0000): 2
+i32.const 257 (0x101): 2
+i32.const 2052 (0x804): 2
+i32.const 6149 (0x1805): 2
+i32.const 2312 (0x908): 2
+i32.const 1801 (0x709): 2
+i32.const 22 (0x16): 2
+i32.const 2327 (0x917): 2
+i32.const 18456 (0x4818): 2
+i32.const 30 (0x1e): 2
+i32.const 288 (0x120): 2
+i32.const 33 (0x21): 2
+i32.const 35 (0x23): 2
+i32.const 2088 (0x828): 2
+i32.const 42 (0x2a): 2
+i32.const 12586 (0x312a): 2
+i32.const 46 (0x2e): 2
+i32.const 2352 (0x930): 2
+i32.const 2611 (0xa33): 2
+i32.const 858993459 (0x33333333): 2
+i32.const 52 (0x34): 2
+i32.const 55 (0x37): 2
+i32.const 59 (0x3b): 2
+i32.const 3135 (0xc3f): 2
+i32.const 66 (0x42): 2
+i32.const 2373 (0x945): 2
+i32.const 1358 (0x54e): 2
+i32.const 7760 (0x1e50): 2
+i32.const 943870035 (0x38425053): 2
+i32.const 1431655765 (0x55555555): 2
+i32.const 2904 (0xb58): 2
+i32.const 1431655768 (0x55555558): 2
+i32.const 2654 (0xa5e): 2
+i32.const 1127 (0x467): 2
+i32.const 880 (0x370): 2
+i32.const 2929 (0xb71): 2
+i32.const 4294959729 (0xffffe271): 2
+i32.const 114 (0x72): 2
+i32.const 2679 (0xa77): 2
+i32.const 1660 (0x67c): 2
+i32.const 381 (0x17d): 2
+i32.const 4294966912 (0xfffffe80): 2
+i32.const 129 (0x81): 2
+i32.const 16843137 (0x1010181): 2
+i32.const 132 (0x84): 2
+i32.const 1156 (0x484): 2
+i32.const 1673 (0x689): 2
+i32.const 75913 (0x12889): 2
+i32.const 144 (0x90): 2
+i32.const 7056 (0x1b90): 2
+i32.const 34960 (0x8890): 2
+i32.const 4294963611 (0xfffff19b): 2
+i32.const 4294959262 (0xffffe09e): 2
+i32.const 2208 (0x8a0): 2
+i32.const 1444 (0x5a4): 2
+i32.const 1446 (0x5a6): 2
+i32.const 10920 (0x2aa8): 2
+i32.const 2217 (0x8a9): 2
+i32.const 11180 (0x2bac): 2
+i32.const 1456 (0x5b0): 2
+i32.const 2485 (0x9b5): 2
+i32.const 4294966966 (0xfffffeb6): 2
+i32.const 1727 (0x6bf): 2
+i32.const 194 (0xc2): 2
+i32.const 4294965699 (0xfffff9c3): 2
+i32.const 3012 (0xbc4): 2
+i32.const 4294967238 (0xffffffc6): 2
+i32.const 1223 (0x4c7): 2
+i32.const 200 (0xc8): 2
+i32.const 18124 (0x46cc): 2
+i32.const 214748364 (0xccccccc): 2
+i32.const 1998 (0x7ce): 2
+i32.const 4816 (0x12d0): 2
+i32.const 11220 (0x2bd4): 2
+i32.const 2520 (0x9d8): 2
+i32.const 8410 (0x20da): 2
+i32.const 10464 (0x28e0): 2
+i32.const 2786 (0xae2): 2
+i32.const 10468 (0x28e4): 2
+i32.const 4294967268 (0xffffffe4): 2
+i32.const 10472 (0x28e8): 2
+i32.const 10476 (0x28ec): 2
+i32.const 239 (0xef): 2
+i32.const 4080 (0xff0): 2
+i32.const 8176 (0x1ff0): 2
+i32.const 10480 (0x28f0): 2
+i32.const 10484 (0x28f4): 2
+i32.const 2294 (0x8f6): 2
+i32.const 247 (0xf7): 2
+i32.const 10488 (0x28f8): 2
+i32.const 2147483645 (0x7ffffffd): 2
+i32.const 1022 (0x3fe): 2
+i32.const 1023 (0x3ff): 2
+i32.const 1535 (0x5ff): 2
+i32.const 4294956799 (0xffffd6ff): 2
+i32.const 4294967039 (0xfffffeff): 2
+i32.const 4294901759 (0xfffeffff): 2
+i32.const 4278190079 (0xfeffffff): 2
+i64.const 281474976776192 (0x1000000010000): 2
+i64.const 1000000000 (0x3b9aca00): 2
+i64.const 1 (0x1): 2
+i64.const 18446744073705340604 (0xffffffffffbfbebc): 2
+i64.const 255 (0xff): 2
+f32.const 0.5 (0x1p-1): 2
+f32.const 2.14748e+09 (0x1p+31): 2
+f32.const 1.70141e+38 (0x1p+127): 2
+f32.const 1.97215e-31 (0x1p-102): 2
+f32.const 65535 (0x1.fffep+15): 2
+f64.const 1 (0x1p+0): 2
+f64.const 1.5 (0x1.8p+0): 2
+i64.ne: 2
+i64.gt_s: 2
+i64.ge_u: 2
+i32.rem_s: 2
+i64.div_u: 2
+f32.abs: 2
+f32.neg: 2
+f32.min: 2
+f32.max: 2
+f64.abs: 2
+i32.trunc_f32_s: 2
+f64.convert_i32_s: 2
+f64.promote_f32: 2
+f32.reinterpret_i32: 2
+f64.reinterpret_i64: 2
+loop i32: 1
+br 20: 1
+br 21: 1
+br 22: 1
+br 23: 1
+br 24: 1
+br 25: 1
+br 26: 1
+br 27: 1
+br 28: 1
+br_if 17: 1
+br_table 0, 1, 0, 1: 1
+br_table 0, 1, 1: 1
+br_table 0, 1, 2, 1: 1
+br_table 0, 1, 2, 3, 4, 5, 6, 7: 1
+br_table 0, 1, 2, 3, 4, 29, 5, 6, 29: 1
+br_table 0, 1, 2, 6: 1
+br_table 0, 1, 2, 7, 2: 1
+br_table 0, 1, 20: 1
+br_table 0, 2, 1: 1
+br_table 0, 2, 1, 2: 1
+br_table 0, 3, 1, 3: 1
+br_table 0, 4, 1, 4: 1
+br_table 1, 0, 1, 0: 1
+br_table 1, 0, 2: 1
+br_table 1, 0, 2, 3, 2: 1
+br_table 1, 0, 3: 1
+br_table 1, 1, 0: 1
+br_table 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2: 1
+br_table 2, 1, 0: 1
+br_table 2, 1, 3, 0, 3: 1
+br_table 2, 4, 1, 0: 1
+br_table 3, 0, 0, 3, 0: 1
+br_table 3, 0, 1: 1
+br_table 3, 0, 1, 7: 1
+br_table 3, 2, 1, 0, 4: 1
+br_table 3, 2, 2, 2, 0, 1: 1
+br_table 3, 3, 0, 1, 2, 3, 3, 5: 1
+br_table 4, 0, 1: 1
+br_table 5, 0, 1, 2, 3: 1
+br_table 6, 0, 1, 2, 3, 4, 5, 7: 1
+br_table 16, 18, 13, 18, 16, 16, 16, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 12, 18, 18, 18, 18, 3, 18, 18, 18, 18, 18, 18, 18, 18, 16, 18, 8, 5, 16, 16, 16, 18, 5, 18, 18, 18, 9, 1, 4, 2, 18, 18, 10, 18, 0, 18, 18, 3, 18: 1
+br_table 17, 0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18: 1
+call 0: 1
+call 1: 1
+call 2: 1
+call 3: 1
+call 4: 1
+call 5: 1
+call 6: 1
+call 7: 1
+call 8: 1
+call 9: 1
+call 10: 1
+call 11: 1
+call 12: 1
+call 15: 1
+call 16: 1
+call 17: 1
+call 18: 1
+call 19: 1
+call 20: 1
+call 21: 1
+call 22: 1
+call 24: 1
+call 25: 1
+call 27: 1
+call 28: 1
+call 31: 1
+call 36: 1
+call 38: 1
+call 39: 1
+call 46: 1
+call 50: 1
+call 55: 1
+call 98: 1
+call 101: 1
+call 102: 1
+call 111: 1
+call 112: 1
+call 113: 1
+call 114: 1
+call 116: 1
+call 117: 1
+call 118: 1
+call 120: 1
+call 121: 1
+call 122: 1
+call 126: 1
+call 127: 1
+call 128: 1
+call 129: 1
+call 131: 1
+call 132: 1
+call 133: 1
+call 134: 1
+call 135: 1
+call 137: 1
+call 138: 1
+call 140: 1
+call 141: 1
+call 142: 1
+call 143: 1
+call 145: 1
+call 146: 1
+call 149: 1
+call 150: 1
+call 154: 1
+call 156: 1
+call 157: 1
+call 160: 1
+call 161: 1
+call 162: 1
+call 163: 1
+call 167: 1
+call 168: 1
+call 170: 1
+call 171: 1
+call 176: 1
+call 177: 1
+call 181: 1
+call 185: 1
+call 186: 1
+call 187: 1
+call 189: 1
+call 192: 1
+call 193: 1
+call 194: 1
+call 197: 1
+call 198: 1
+call 199: 1
+call 200: 1
+call 202: 1
+call 204: 1
+call 205: 1
+call 206: 1
+call_indirect 1, 0: 1
+call_indirect 4, 0: 1
+call_indirect 6, 0: 1
+local.get 42: 1
+local.set 38: 1
+local.tee 26: 1
+local.tee 27: 1
+local.tee 36: 1
+local.tee 42: 1
+i32.load 0, 1: 1
+i32.load 2, 18436: 1
+i32.load 2, 18452: 1
+i32.load 2, 34856: 1
+i32.load 2, 34860: 1
+i32.load 2, 34864: 1
+i32.load 2, 7992: 1
+i32.load 2, 34872: 1
+i32.load 2, 34876: 1
+i32.load 2, 34880: 1
+i32.load 2, 80: 1
+i32.load 2, 96: 1
+i32.load 2, 10848: 1
+i32.load 2, 10856: 1
+i32.load 2, 18052: 1
+i32.load 2, 18056: 1
+i32.load 2, 10908: 1
+i32.load 2, 11180: 1
+i32.load 2, 8128: 1
+i32.load 2, 11204: 1
+i32.load 2, 18376: 1
+i32.load 2, 10444: 1
+i32.load 2, 11216: 1
+i32.load 2, 11220: 1
+i32.load 2, 11224: 1
+i32.load 2, 18404: 1
+i64.load 0, 5: 1
+i64.load 1, 0: 1
+i64.load 2, 16: 1
+i64.load 2, 24: 1
+i64.load 2, 10860: 1
+i64.load 2, 10868: 1
+i64.load 3, 16: 1
+i64.load 3, 24: 1
+i64.load 3, 96: 1
+f32.load 2, 7696: 1
+f32.load 2, 7700: 1
+f64.load 3, 7680: 1
+f64.load 3, 7688: 1
+f64.load 3, 56: 1
+f64.load 3, 7328: 1
+f64.load 3, 7336: 1
+f64.load 3, 7344: 1
+f64.load 3, 7352: 1
+f64.load 3, 7656: 1
+f64.load 3, 7664: 1
+f64.load 3, 7672: 1
+i32.load8_s 0, 3: 1
+i32.load8_u 0, 13: 1
+i32.load8_u 0, 14: 1
+i32.load8_u 0, 16: 1
+i32.load8_u 0, 20: 1
+i32.load8_u 0, 10856: 1
+i32.load8_u 0, 8144: 1
+i32.load8_u 0, 8160: 1
+i32.load8_u 0, 8168: 1
+i32.load16_u 0, 13: 1
+i32.load16_u 0, 488: 1
+i32.load16_u 0, 490: 1
+i32.load16_u 1, 8: 1
+i64.load8_s 0, 0: 1
+i64.load8_u 0, 0: 1
+i64.load16_s 1, 0: 1
+i64.load16_u 1, 0: 1
+i32.store 0, 1: 1
+i32.store 0, 15: 1
+i32.store 2, 1: 1
+i32.store 2, 2: 1
+i32.store 2, 3: 1
+i32.store 2, 34856: 1
+i32.store 2, 7728: 1
+i32.store 2, 34868: 1
+i32.store 2, 34872: 1
+i32.store 2, 34876: 1
+i32.store 2, 34880: 1
+i32.store 2, 34884: 1
+i32.store 2, 34896: 1
+i32.store 2, 34900: 1
+i32.store 2, 10844: 1
+i32.store 2, 10848: 1
+i32.store 2, 10868: 1
+i32.store 2, 18052: 1
+i32.store 2, 18056: 1
+i32.store 2, 18060: 1
+i32.store 2, 18064: 1
+i32.store 2, 18068: 1
+i32.store 2, 18072: 1
+i32.store 2, 176: 1
+i32.store 2, 180: 1
+i32.store 2, 184: 1
+i32.store 2, 8128: 1
+i32.store 2, 11204: 1
+i32.store 2, 200: 1
+i32.store 2, 11208: 1
+i32.store 2, 204: 1
+i32.store 2, 11212: 1
+i32.store 2, 18380: 1
+i32.store 2, 11216: 1
+i32.store 2, 18384: 1
+i32.store 2, 18392: 1
+i32.store 2, 18396: 1
+i32.store 2, 18404: 1
+i32.store 2, 18408: 1
+i32.store 2, 18416: 1
+i64.store 0, 0: 1
+i64.store 0, 5: 1
+i64.store 2, 5: 1
+i64.store 2, 6: 1
+i64.store 2, 7: 1
+i64.store 2, 20: 1
+i64.store 2, 24: 1
+i64.store 2, 32: 1
+i64.store 2, 18364: 1
+i64.store 2, 18404: 1
+i64.store 3, 24: 1
+i64.store 3, 160: 1
+i64.store 3, 168: 1
+f32.store 2, 4: 1
+f32.store 2, 8: 1
+f64.store 3, 0: 1
+i32.store8 0, 11: 1
+i32.store8 0, 15: 1
+i32.store8 0, 40: 1
+i32.store8 0, 79: 1
+i32.store16 0, 13: 1
+i32.store16 1, 12: 1
+i64.store8 0, 55: 1
+i64.store32 2, 0: 1
+i64.store32 2, 8: 1
+memory.size 0 (0x0): 1
+memory.grow 0 (0x0): 1
+i32.const 503316480 (0x1e000000): 1
+i32.const 536870912 (0x20000000): 1
+i32.const 2130706432 (0x7f000000): 1
+i32.const 2164260864 (0x81000000): 1
+i32.const 4261412864 (0xfe000000): 1
+i32.const 524288 (0x80000): 1
+i32.const 2155872256 (0x80800000): 1
+i32.const 4102029312 (0xf4800000): 1
+i32.const 4286578688 (0xff800000): 1
+i32.const 3234660352 (0xc0cd0000): 1
+i32.const 3328 (0xd00): 1
+i32.const 4352 (0x1100): 1
+i32.const 4608 (0x1200): 1
+i32.const 9216 (0x2400): 1
+i32.const 16384 (0x4000): 1
+i32.const 1858048 (0x1c5a00): 1
+i32.const 1470208 (0x166f00): 1
+i32.const 4294606336 (0xfffa7e00): 1
+i32.const 32768 (0x8000): 1
+i32.const 4294934528 (0xffff8000): 1
+i32.const 4294218496 (0xfff49300): 1
+i32.const 55296 (0xd800): 1
+i32.const 57344 (0xe000): 1
+i32.const 4294959104 (0xffffe000): 1
+i32.const 100000000 (0x5f5e100): 1
+i32.const 4294963200 (0xfffff000): 1
+i32.const 4278190081 (0xff000001): 1
+i32.const 769 (0x301): 1
+i32.const 1281 (0x501): 1
+i32.const 1026 (0x402): 1
+i32.const 4294966274 (0xfffffc02): 1
+i32.const 4294967042 (0xffffff02): 1
+i32.const 260 (0x104): 1
+i32.const 1028 (0x404): 1
+i32.const 1540 (0x604): 1
+i32.const 2565 (0xa05): 1
+i32.const 1798 (0x706): 1
+i32.const 3080 (0xc08): 1
+i32.const 4294934536 (0xffff8008): 1
+i32.const 1289 (0x509): 1
+i32.const 2572 (0xa0c): 1
+i32.const 252645135 (0xf0f0f0f): 1
+i32.const 6160 (0x1810): 1
+i32.const 7696 (0x1e10): 1
+i32.const 1044 (0x414): 1
+i32.const 1300 (0x514): 1
+i32.const 2580 (0xa14): 1
+i32.const 4884 (0x1314): 1
+i32.const 1813 (0x715): 1
+i32.const 65814 (0x10116): 1
+i32.const 1558 (0x616): 1
+i32.const 7704 (0x1e18): 1
+i32.const 1817 (0x719): 1
+i32.const 4294967067 (0xffffff1b): 1
+i32.const 2077 (0x81d): 1
+i32.const 8388639 (0x80001f): 1
+i32.const 287 (0x11f): 1
+i32.const 3360 (0xd20): 1
+i32.const 1827 (0x723): 1
+i32.const 1060 (0x424): 1
+i32.const 1317 (0x525): 1
+i32.const 1573 (0x625): 1
+i32.const 4294967077 (0xffffff25): 1
+i32.const 4294967079 (0xffffff27): 1
+i32.const 1064 (0x428): 1
+i32.const 2600 (0xa28): 1
+i32.const 41 (0x29): 1
+i32.const 5929 (0x1729): 1
+i32.const 2090 (0x82a): 1
+i32.const 1580 (0x62c): 1
+i32.const 2604 (0xa2c): 1
+i32.const 2349 (0x92d): 1
+i32.const 2863 (0xb2f): 1
+i32.const 1072 (0x430): 1
+i32.const 7728 (0x1e30): 1
+i32.const 1073 (0x431): 1
+i32.const 2097 (0x831): 1
+i32.const 1843 (0x733): 1
+i32.const 1332 (0x534): 1
+i32.const 1588 (0x634): 1
+i32.const 3636 (0xe34): 1
+i32.const 54 (0x36): 1
+i32.const 1081 (0x439): 1
+i32.const 2617 (0xa39): 1
+i32.const 58 (0x3a): 1
+i32.const 1082 (0x43a): 1
+i32.const 60 (0x3c): 1
+i32.const 1084 (0x43c): 1
+i32.const 3388 (0xd3c): 1
+i32.const 61 (0x3d): 1
+i32.const 1087 (0x43f): 1
+i32.const 1343 (0x53f): 1
+i32.const 8000 (0x1f40): 1
+i32.const 2881 (0xb41): 1
+i32.const 2115 (0x843): 1
+i32.const 1604 (0x644): 1
+i32.const 7748 (0x1e44): 1
+i32.const 18244 (0x4744): 1
+i32.const 1229278788 (0x49454e44): 1
+i32.const 1347179589 (0x504c5445): 1
+i32.const 2630 (0xa46): 1
+i32.const 2886 (0xb46): 1
+i32.const 1096 (0x448): 1
+i32.const 1608 (0x648): 1
+i32.const 1864 (0x748): 1
+i32.const 2121 (0x849): 1
+i32.const 2377 (0x949): 1
+i32.const 1130840649 (0x43674249): 1
+i32.const 1612 (0x64c): 1
+i32.const 2637 (0xa4d): 1
+i32.const 3408 (0xd50): 1
+i32.const 1229472850 (0x49484452): 1
+i32.const 2387 (0x953): 1
+i32.const 4691 (0x1253): 1
+i32.const 1951551059 (0x74524e53): 1
+i32.const 84 (0x54): 1
+i32.const 1229209940 (0x49444154): 1
+i32.const 1621 (0x655): 1
+i32.const 2135 (0x857): 1
+i32.const 88 (0x58): 1
+i32.const 34904 (0x8858): 1
+i32.const 89 (0x59): 1
+i32.const 92 (0x5c): 1
+i32.const 1886 (0x75e): 1
+i32.const 1120 (0x460): 1
+i32.const 3680 (0xe60): 1
+i32.const 1379 (0x563): 1
+i32.const 2403 (0x963): 1
+i32.const 1124 (0x464): 1
+i32.const 101 (0x65): 1
+i32.const 1637 (0x665): 1
+i32.const 1126 (0x466): 1
+i32.const 2662 (0xa66): 1
+i32.const 103 (0x67): 1
+i32.const 4294967145 (0xffffff69): 1
+i32.const 4294963308 (0xfffff06c): 1
+i32.const 2158 (0x86e): 1
+i32.const 1648 (0x670): 1
+i32.const 1652 (0x674): 1
+i32.const 1142 (0x476): 1
+i32.const 1398 (0x576): 1
+i32.const 119 (0x77): 1
+i32.const 1144 (0x478): 1
+i32.const 10360 (0x2878): 1
+i32.const 4294967160 (0xffffff78): 1
+i32.const 2172 (0x87c): 1
+i32.const 1918 (0x77e): 1
+i32.const 1151 (0x47f): 1
+i32.const 6527 (0x197f): 1
+i32.const 4294967167 (0xffffff7f): 1
+i32.const 3456 (0xd80): 1
+i32.const 4224 (0x1080): 1
+i32.const 4480 (0x1180): 1
+i32.const 4992 (0x1380): 1
+i32.const 57216 (0xdf80): 1
+i32.const 642 (0x282): 1
+i32.const 2692 (0xa84): 1
+i32.const 4294967173 (0xffffff85): 1
+i32.const 1160 (0x488): 1
+i32.const 3211 (0xc8b): 1
+i32.const 1932 (0x78c): 1
+i32.const 2700 (0xa8c): 1
+i32.const 18316 (0x478c): 1
+i32.const 34956 (0x888c): 1
+i32.const 2960 (0xb90): 1
+i32.const 1428 (0x594): 1
+i32.const 1173 (0x495): 1
+i32.const 2711 (0xa97): 1
+i32.const 1689 (0x699): 1
+i32.const 429496729 (0x19999999): 1
+i32.const 2971 (0xb9b): 1
+i32.const 18076 (0x469c): 1
+i32.const 4294967196 (0xffffff9c): 1
+i32.const 2718 (0xa9e): 1
+i32.const 3744 (0xea0): 1
+i32.const 7072 (0x1ba0): 1
+i32.const 1958 (0x7a6): 1
+i32.const 2726 (0xaa6): 1
+i32.const 1703 (0x6a7): 1
+i32.const 1193 (0x4a9): 1
+i32.const 4780 (0x12ac): 1
+i32.const 10412 (0x28ac): 1
+i32.const 3245 (0xcad): 1
+i32.const 176 (0xb0): 1
+i32.const 4294967216 (0xffffffb0): 1
+i32.const 6577 (0x19b1): 1
+i32.const 1970 (0x7b2): 1
+i32.const 1715 (0x6b3): 1
+i32.const 1974 (0x7b6): 1
+i32.const 2231 (0x8b7): 1
+i32.const 184 (0xb8): 1
+i32.const 2491 (0x9bb): 1
+i32.const 2749 (0xabd): 1
+i32.const 191 (0xbf): 1
+i32.const 1472 (0x5c0): 1
+i32.const 2496 (0x9c0): 1
+i32.const 3264 (0xcc0): 1
+i32.const 4032 (0xfc0): 1
+i32.const 1217 (0x4c1): 1
+i32.const 4294967233 (0xffffffc1): 1
+i32.const 1986 (0x7c2): 1
+i32.const 196 (0xc4): 1
+i32.const 18116 (0x46c4): 1
+i32.const 2757 (0xac5): 1
+i32.const 119304647 (0x71c71c7): 1
+i32.const 3016 (0xbc8): 1
+i32.const 8136 (0x1fc8): 1
+i32.const 2249 (0x8c9): 1
+i32.const 204 (0xcc): 1
+i32.const 1740 (0x6cc): 1
+i32.const 8140 (0x1fcc): 1
+i32.const 4294967244 (0xffffffcc): 1
+i32.const 1741 (0x6cd): 1
+i32.const 3023 (0xbcf): 1
+i32.const 18128 (0x46d0): 1
+i32.const 1489 (0x5d1): 1
+i32.const 4294967250 (0xffffffd2): 1
+i32.const 3027 (0xbd3): 1
+i32.const 8148 (0x1fd4): 1
+i32.const 18132 (0x46d4): 1
+i32.const 1237 (0x4d5): 1
+i32.const 3031 (0xbd7): 1
+i32.const 216 (0xd8): 1
+i32.const 8152 (0x1fd8): 1
+i32.const 11224 (0x2bd8): 1
+i32.const 1753 (0x6d9): 1
+i32.const 2265 (0x8d9): 1
+i32.const 1499 (0x5db): 1
+i32.const 8156 (0x1fdc): 1
+i32.const 223 (0xdf): 1
+i32.const 3296 (0xce0): 1
+i32.const 4064 (0xfe0): 1
+i32.const 18144 (0x46e0): 1
+i32.const 1249 (0x4e1): 1
+i32.const 5345 (0x14e1): 1
+i32.const 4294967266 (0xffffffe2): 1
+i32.const 3043 (0xbe3): 1
+i32.const 5347 (0x14e3): 1
+i32.const 4294967011 (0xfffffee3): 1
+i32.const 4294967267 (0xffffffe3): 1
+i32.const 2020 (0x7e4): 1
+i32.const 8164 (0x1fe4): 1
+i32.const 1765 (0x6e5): 1
+i32.const 4294967270 (0xffffffe6): 1
+i32.const 7400 (0x1ce8): 1
+i32.const 1257 (0x4e9): 1
+i32.const 1514 (0x5ea): 1
+i32.const 1770 (0x6ea): 1
+i32.const 3051 (0xbeb): 1
+i32.const 236 (0xec): 1
+i32.const 238 (0xee): 1
+i32.const 2286 (0x8ee): 1
+i32.const 2543 (0x9ef): 1
+i32.const 3568 (0xdf0): 1
+i32.const 7408 (0x1cf0): 1
+i32.const 1777 (0x6f1): 1
+i32.const 4294967281 (0xfffffff1): 1
+i32.const 4294967282 (0xfffffff2): 1
+i32.const 246 (0xf6): 1
+i32.const 2039 (0x7f7): 1
+i32.const 5880 (0x16f8): 1
+i32.const 12280 (0x2ff8): 1
+i32.const 249 (0xf9): 1
+i32.const 2809 (0xaf9): 1
+i32.const 4294967290 (0xfffffffa): 1
+i32.const 4859 (0x12fb): 1
+i32.const 252 (0xfc): 1
+i32.const 18172 (0x46fc): 1
+i32.const 253 (0xfd): 1
+i32.const 1789 (0x6fd): 1
+i32.const 2557 (0x9fd): 1
+i32.const 3583 (0xdff): 1
+i32.const 4607 (0x11ff): 1
+i32.const 8191 (0x1fff): 1
+i32.const 999999999 (0x3b9ac9ff): 1
+i32.const 1048575 (0xfffff): 1
+i32.const 8388607 (0x7fffff): 1
+i32.const 2130706431 (0x7effffff): 1
+i64.const 4602678819172646912 (0x3fe0000000000000): 1
+i64.const 9223231299366420480 (0x7fff800000000000): 1
+i64.const 4294967296 (0x100000000): 1
+i64.const 18446744069414584320 (0xffffffff00000000): 1
+i64.const 2147483648 (0x80000000): 1
+i64.const 280375481794560 (0xff0000ff0000): 1
+i64.const 4260607589376 (0x3e000007c00): 1
+i64.const 4638426141214900225 (0x405f000000000001): 1
+i64.const 4294967297 (0x100000001): 1
+i64.const 549755813889 (0x8000000001): 1
+i64.const 16386 (0x4002): 1
+i64.const 3 (0x3): 1
+i64.const 4 (0x4): 1
+i64.const 7 (0x7): 1
+i64.const 8 (0x8): 1
+i64.const 15 (0xf): 1
+i64.const 47 (0x2f): 1
+i64.const 52 (0x34): 1
+i64.const 64 (0x40): 1
+i64.const 4194625 (0x400141): 1
+i64.const 1844674407370955162 (0x199999999999999a): 1
+i64.const 18446744073705356990 (0xffffffffffbffebe): 1
+i64.const 18374686479671623935 (0xff000000000000ff): 1
+i64.const 42949672959 (0x9ffffffff): 1
+i64.const 9227875636482146303 (0x800fffffffffffff): 1
+f32.const 2.52435e-29 (0x1p-95): 1
+f32.const 8.38861e+06 (0x1p+23): 1
+f32.const 1.58456e+29 (0x1p+97): 1
+f32.const 3 (0x1.8p+1): 1
+f64.const 9.0072e+15 (0x1p+53): 1
+f64.const 2.68435e+08 (0x1p+28): 1
+f64.const 0.5 (0x1p-1): 1
+f64.const 2.14748e+09 (0x1p+31): 1
+f64.const 4.29497e+09 (0x1p+32): 1
+f64.const 1.84467e+19 (0x1p+64): 1
+f64.const inf (inf): 1
+f64.const -1 (-0x1p+0): 1
+f64.const -150 (-0x1.2cp+7): 1
+f64.const 1e+09 (0x1.dcd65p+29): 1
+f64.const 9.0072e+15 (0x1.0000000000001p+53): 1
+f64.const 128 (0x1.fffffffd1d571p+6): 1
+i64.eq: 1
+i64.le_s: 1
+f64.gt: 1
+f64.le: 1
+f64.ge: 1
+i32.trunc_f64_s: 1
+i32.trunc_f64_u: 1
+f32.convert_i32_s: 1
+f32.demote_f64: 1
+f64.convert_i32_u: 1
+memory.copy 0, 0: 1
+memory.fill 0 (0x0): 1

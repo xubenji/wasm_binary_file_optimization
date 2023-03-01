@@ -1,0 +1,9 @@
+section ID -- 1byte
+section SIZE -- 3byte(LEB128)
+function type* -- 0byte
+function SIZE  -- 3byte(LEB128)
+instructions  -- **
+function type* -- 0byte
+function SIZE  -- 3byte(LEB128)
+instructions  -- **
+.....

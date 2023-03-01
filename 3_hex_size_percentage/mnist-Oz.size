@@ -1,0 +1,12 @@
+code size: 32766
+local.get : 7570
+i32.const : 5970
+end : 846
+local.tee : 1660
+i32.add : 825
+br_if : 1562
+local.set : 1558
+block : 1244
+i32.store : 2146
+i32.load : 2178
+78 %

@@ -1,0 +1,7 @@
+bzip2-O3 :  92%					79%
+espeak-O3:  88%					76%
+facedetection-O3:   79%			71%
+gnuchess-O3:  89%				77%
+mnist-O3:  92%					81%
+snappy-O3:  90%					80%
+whitedb-O3:  93%				81%

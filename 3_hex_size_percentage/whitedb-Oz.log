@@ -1,0 +1,12 @@
+local.get : 1686
+i32.const : 167
+i32.add : 15
+end : 174
+br_if : 0
+local.set : 0
+local.tee : 0
+block : 309
+i32.load : 1
+call : 15
+
+Count: 0

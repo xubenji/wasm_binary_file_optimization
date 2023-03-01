@@ -1,0 +1,4 @@
+./mnist-O0.bin: 60187 - 60042
+BinarySize 60187
+SectionSize 60042
+Bin-Section 145

@@ -1,0 +1,24 @@
+
+espeak-Os.bin:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x0000011a (size=0x0000010f) count: 37
+   Import start=0x0000011d end=0x0000037c (size=0x0000025f) count: 16
+ Function start=0x0000037f end=0x000004e9 (size=0x0000016a) count: 360
+    Table start=0x000004eb end=0x000004f0 (size=0x00000005) count: 1
+   Memory start=0x000004f2 end=0x000004f5 (size=0x00000003) count: 1
+   Global start=0x000004f7 end=0x000004ff (size=0x00000008) count: 1
+   Export start=0x00000501 end=0x00000515 (size=0x00000014) count: 2
+     Elem start=0x00000517 end=0x00000562 (size=0x0000004b) count: 1
+     Code start=0x00000566 end=0x00027f95 (size=0x00027a2f) count: 360
+     Data start=0x00027f99 end=0x00031806 (size=0x0000986d) count: 2
+   Custom start=0x00031809 end=0x00032102 (size=0x000008f9) ".debug_info"
+   Custom start=0x00032105 end=0x00032a6a (size=0x00000965) ".debug_loc"
+   Custom start=0x00032a6c end=0x00032aba (size=0x0000004e) ".debug_ranges"
+   Custom start=0x00032abd end=0x00032e75 (size=0x000003b8) ".debug_abbrev"
+   Custom start=0x00032e78 end=0x0003367d (size=0x00000805) ".debug_line"
+   Custom start=0x00033680 end=0x00033a2c (size=0x000003ac) ".debug_str"
+   Custom start=0x00033a2f end=0x00036393 (size=0x00002964) "name"
+   Custom start=0x00036396 end=0x0003641b (size=0x00000085) "producers"
+   Custom start=0x0003641d end=0x0003643f (size=0x00000022) "target_features"

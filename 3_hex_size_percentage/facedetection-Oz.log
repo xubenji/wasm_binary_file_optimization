@@ -1,0 +1,12 @@
+local.get : 2034
+i32.const : 346
+local.set : 0
+i32.add : 11
+end : 303
+br_if : 0
+local.tee : 0
+block : 327
+i32.load : 4
+i32.store : 0
+
+Count: 0
