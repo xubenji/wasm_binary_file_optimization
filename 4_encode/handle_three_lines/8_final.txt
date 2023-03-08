@@ -1,0 +1,11 @@
+0240-0240-0240 352 : 0240 block 0240 block 0240 block
+4102-74-6a 288 : 4102 i32.const2 74 i32.shl 6a i32.add
+0d00-0b-0b 253 : 0d00 br_if0 0b end 0b end
+74-6a-280200 143 : 74 i32.shl 6a i32.add 280200 i32.load20
+280200-4101-6a 134 : 280200 i32.load20 4101 i32.const1 6a i32.add
+4101-6a-360200 115 : 4101 i32.const1 6a i32.add 360200 i32.store20
+45-0d00-2000 89 : 45 i32.eqz 0d00 br_if0 2000 local.get0
+4a-0d00-0b 85 : 4a i32.gt_s 0d00 br_if0 0b end
+47-0d00-0b 81 : 47 i32.ne 0d00 br_if0 0b end
+2008-280200-4101 68 : 2008 local.get8 280200 i32.load20 4101 i32.const1
+0b-0240-0240 67 : 0b end 0240 block 0240 block

@@ -1,0 +1,10 @@
+local.get-i32.const-i32.add 1780
+i32.store-local.get-local.get 888
+local.get-local.get-i32.const 882
+local.set-local.get-local.set 819
+local.get-local.set-local.get 773
+i32.const-i32.add-local.tee 699
+i32.const-i32.add-local.set 586
+local.get-local.get-i32.load 546
+local.tee-i32.store-local.get 539
+local.get-local.get-local.get 504

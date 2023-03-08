@@ -1,0 +1,10 @@
+local.get-i32.const 3645
+local.get-local.get 3260
+i32.const-i32.add 2448
+local.set-local.get 1866
+local.get-i32.load 1674
+i32.store-local.get 1299
+end-local.get 1210
+br_if-local.get 1206
+local.get-local.set 1021
+block-local.get 1012
